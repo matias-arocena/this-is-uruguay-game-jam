@@ -29,7 +29,7 @@ public class TommyMovement : MonoBehaviour
         if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
-        anim.SetBool("run", Horizontal != 0.0f);
+        anim.SetBool("Running", Horizontal != 0.0f);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -47,12 +47,10 @@ public class TommyMovement : MonoBehaviour
 
     private void Jump()
     {  if(saltos<maxSaltos || maxSaltos ==-1){
-            if(saltos==0){
-                rb.AddForce(Vector2.up * fuerzaSalto);}
-            else{
-                rb.velocity = new Vector2(rb.velocity.x, 0);
-                rb.AddForce(Vector2.up * fuerzaSalto);
-            }
+            anim.SetBool("Jumping", true);
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+            rb.AddForce(Vector2.up * fuerzaSalto);
+            
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -60,7 +58,7 @@ public class TommyMovement : MonoBehaviour
         if (collision.gameObject.tag == "Suelo" || (collision.gameObject.tag == "Suelo2"))
         {
             saltos=0;
-            anim.SetBool("estaSaltando", false);
+            anim.SetBool("Jumping", false);
         
         }
 
