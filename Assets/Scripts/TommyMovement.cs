@@ -14,7 +14,6 @@ public class TommyMovement : MonoBehaviour
     private bool Grounded;
     bool jump;
    
-
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -34,8 +33,11 @@ public class TommyMovement : MonoBehaviour
 
         Animator.SetBool("Running", Horizontal != 0.0f);
 
-        if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        if (Horizontal < 0.0f && transform.localScale.x >= 0.0f || Horizontal > 0.0f && transform.localScale.x < 0.0f)
+        {
+            transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }   
+
 
         //Animator.SetBool("running", Horizontal != 0.0f);
 
