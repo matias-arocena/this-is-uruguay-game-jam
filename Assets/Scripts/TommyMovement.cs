@@ -38,9 +38,6 @@ public class TommyMovement : MonoBehaviour
             transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }   
 
-
-        //Animator.SetBool("running", Horizontal != 0.0f);
-
     }
     private void Jump()
     {
