@@ -25,9 +25,11 @@ public class TommyMovement : MonoBehaviour
     void Update()
     {
         Horizontal = Input.GetAxis("Horizontal");
-
-        if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+    
+        if (Horizontal < 0.0f && transform.localScale.x >= 0.0f || Horizontal > 0.0f && transform.localScale.x < 0.0f)
+        {
+            transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }   
 
         anim.SetBool("Running", Horizontal != 0.0f);
 
@@ -36,9 +38,7 @@ public class TommyMovement : MonoBehaviour
             Jump();
         }
     
-        
-
-
+    
     }
     private void FixedUpdate()
     {
