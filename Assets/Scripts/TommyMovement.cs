@@ -4,49 +4,66 @@ using UnityEngine;
 
 public class TommyMovement : MonoBehaviour
 {
+    public float fuerzaSalto = 150f;
     public float Speed;
-    public float JumpForce;
-    public GameObject BulletPrefab;
-
-    private Rigidbody2D Rigidbody2D;
-    private Animator Animator;
+    private Rigidbody2D rb;
+    private Animator anim;
+    private int saltos;
+    public int maxSaltos;
+    public float dirX;
+    public SpriteRenderer spr;
     private float Horizontal;
-    private bool Grounded;
-    bool jump;
-   
+  
     void Start()
-    {
-        Rigidbody2D = GetComponent<Rigidbody2D>();
-        Animator = GetComponent<Animator>();
+    {  saltos=0;
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+ 
+ 
     void Update()
     {
-        Horizontal = Input.GetAxisRaw("Horizontal");
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Jump();
-        }
-
-
-        Animator.SetBool("Running", Horizontal != 0.0f);
-
+        Horizontal = Input.GetAxis("Horizontal");
+    
         if (Horizontal < 0.0f && transform.localScale.x >= 0.0f || Horizontal > 0.0f && transform.localScale.x < 0.0f)
         {
             transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }   
 
-    }
-    private void Jump()
-    {
-            Rigidbody2D.AddForce(Vector2.up * JumpForce);
-            Animator.SetBool("Jumping", jump);
-    }
+        anim.SetBool("run", Horizontal != 0.0f);
 
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            Jump();
+        }
+    
+    
+    }
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(Horizontal * Speed, Rigidbody2D.velocity.y);
+        rb.velocity = new Vector2(Horizontal * Speed, rb.velocity.y);
+    }
+
+    private void Jump()
+    {  if(saltos<maxSaltos || maxSaltos ==-1){
+            if(saltos==0){
+                rb.AddForce(Vector2.up * fuerzaSalto);}
+            else{
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                rb.AddForce(Vector2.up * fuerzaSalto);
+            }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Suelo" || (collision.gameObject.tag == "Suelo2"))
+        {
+            saltos=0;
+            anim.SetBool("estaSaltando", false);
+        
+        }
+
+
     }
 }
