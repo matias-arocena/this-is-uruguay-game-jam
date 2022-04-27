@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 160576615}
   - component: {fileID: 160576614}
   - component: {fileID: 160576613}
+  - component: {fileID: 160576619}
   m_Layer: 0
   m_Name: Jonny
   m_TagString: Untagged
@@ -176,9 +177,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a818d87f69954554ab513f7259457070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuerzaSalto: 150
   Speed: 5
-  JumpForce: 150
-  BulletPrefab: {fileID: 0}
+  maxSaltos: 1
+  dirX: 0
+  spr: {fileID: 160576617}
 --- !u!70 &160576615
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -283,6 +286,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &160576619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160576612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51221dea9c4c5d24b89e969596308d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deathWallTag: DeathWall
 --- !u!1 &272476859
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,8 +473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a9721624952ca4e9df747c0ad57625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jonny: {fileID: 160576612}
-  DeathWall: {fileID: 854984248}
+  _jonny: {fileID: 160576612}
+  _tommy: {fileID: 1169891235}
+  _deathWall: {fileID: 854984248}
 --- !u!1 &612576322
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +492,7 @@ GameObject:
   - component: {fileID: 612576324}
   m_Layer: 0
   m_Name: ImaginaryTilemap
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -878,9 +895,10 @@ GameObject:
   - component: {fileID: 854984251}
   - component: {fileID: 854984250}
   - component: {fileID: 854984249}
+  - component: {fileID: 854984252}
   m_Layer: 0
   m_Name: DeathWall
-  m_TagString: Untagged
+  m_TagString: DeathWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -971,13 +989,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854984248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.67, y: 4.64, z: 0}
+  m_LocalPosition: {x: -12.9, y: 4.64, z: 0}
   m_LocalScale: {x: 1, y: 5.875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &854984252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854984248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bb1a2d6342ea048ac0979f60c8d741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialSpeed: 0.1
+  _initialAcceleration: 1.01
+  _maxSpeed: 5.5
 --- !u!1 &1169891235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,9 +1148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a818d87f69954554ab513f7259457070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuerzaSalto: 150
   Speed: 5
-  JumpForce: 150
-  BulletPrefab: {fileID: 0}
+  maxSaltos: 1
+  dirX: 0
+  spr: {fileID: 1169891236}
 --- !u!95 &1169891241
 Animator:
   serializedVersion: 4
