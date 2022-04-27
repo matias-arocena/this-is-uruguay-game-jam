@@ -11,6 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/JonnyMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TommyMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651011940751</updated>
       <workItem from="1651011941822" duration="33000" />
-      <workItem from="1651011979056" duration="3730000" />
+      <workItem from="1651011979056" duration="6628000" />
     </task>
     <servers />
   </component>

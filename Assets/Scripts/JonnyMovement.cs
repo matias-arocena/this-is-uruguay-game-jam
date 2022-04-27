@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TommyMovement : MonoBehaviour
+public class JonnyMovement : MonoBehaviour
 {
     public float fuerzaSalto = 150f;
     public float Speed;
@@ -31,7 +31,7 @@ public class TommyMovement : MonoBehaviour
             transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }   
 
-        anim.SetBool("Running", Horizontal != 0.0f);
+        anim.SetBool("run", Horizontal != 0.0f);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -48,7 +48,7 @@ public class TommyMovement : MonoBehaviour
 
     private void Jump()
     {  if(saltos<maxSaltos || maxSaltos ==-1){
-            anim.SetBool("Jumping", true);
+            anim.SetBool("jump", true);
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * fuerzaSalto);
             saltos++;
@@ -57,10 +57,10 @@ public class TommyMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Suelo" )
+        if (collision.gameObject.tag == "Suelo")
         {
             saltos=0;
-            anim.SetBool("Jumping", false);
+            anim.SetBool("jump", false);
         
         }
 
