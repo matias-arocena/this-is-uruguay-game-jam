@@ -63,7 +63,5 @@ public class TommyMovement : MonoBehaviour
             anim.SetBool("Jumping", false);
         
         }
-
-
     }
 }

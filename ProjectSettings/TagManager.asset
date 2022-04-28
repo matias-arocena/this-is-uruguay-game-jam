@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Suelo
   - DeathWall
+  - Jonny
+  - Enemy
   layers:
   - Default
   - TransparentFX
