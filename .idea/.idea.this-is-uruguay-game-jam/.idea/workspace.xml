@@ -4,10 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Agrege la camara que sigue al personaje, y agrege otra esena">
-      <change afterPath="$PROJECT_DIR$/Assets/sonido/music/fondo evil.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sonido/music/fondo good 2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sonido/music/fondo good.mp3" afterDir="false" />
+    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="sonidos">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (9).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Dead (9).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (9).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Idle (9).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (9).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Jump (9).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Run (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (9).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Slide (9).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (9).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/jonny/Walk (9).png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +132,7 @@
       <updated>1651102471339</updated>
       <workItem from="1651102505281" duration="30000" />
       <workItem from="1651181207356" duration="20000" />
-      <workItem from="1651186679037" duration="2622000" />
+      <workItem from="1651186679037" duration="4007000" />
     </task>
     <task id="LOCAL-00001" summary="Agrege la camara que sigue al personaje, y agrege otra esena">
       <created>1651192067605</created>
@@ -84,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651192067605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sonidos">
+      <created>1651192994868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651192994868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Agrege la camara que sigue al personaje, y agrege otra esena" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrege la camara que sigue al personaje, y agrege otra esena" />
+    <MESSAGE value="sonidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="sonidos" />
   </component>
 </project>
