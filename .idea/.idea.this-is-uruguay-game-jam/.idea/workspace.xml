@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/columns.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/columns.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Agrege la camara que sigue al personaje, y agrege otra esena">
+      <change afterPath="$PROJECT_DIR$/Assets/sonido/music/fondo evil.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sonido/music/fondo good 2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sonido/music/fondo good.mp3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28OzYf1sMKDp3n0iyDE7AFbGb8P" />
   <component name="ProjectViewState">
@@ -76,8 +75,16 @@
       <updated>1651102471339</updated>
       <workItem from="1651102505281" duration="30000" />
       <workItem from="1651181207356" duration="20000" />
-      <workItem from="1651186679037" duration="1903000" />
+      <workItem from="1651186679037" duration="2622000" />
     </task>
+    <task id="LOCAL-00001" summary="Agrege la camara que sigue al personaje, y agrege otra esena">
+      <created>1651192067605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651192067605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Agrege la camara que sigue al personaje, y agrege otra esena" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agrege la camara que sigue al personaje, y agrege otra esena" />
   </component>
 </project>
