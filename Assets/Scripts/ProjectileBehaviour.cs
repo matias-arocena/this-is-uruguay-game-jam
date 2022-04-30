@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileBehaivour : MonoBehaviour
+public class ProjectileBehaviour : MonoBehaviour
 {
     [SerializeField] private float _speed = 8.0f;
     [SerializeField] private float _timeToLiveInSeconds = 5.0f;
-
+    [SerializeField] private int _damage = 1;
+    
     private float _directionMultiplier = 1;
 
     IEnumerator DestroyInTime(float secondsToWait)
@@ -19,6 +20,11 @@ public class ProjectileBehaivour : MonoBehaviour
     void Start()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Jonny");
+        if (player == null)
+        {
+            Debug.LogError("Missing Jonny Tag");
+            return;
+        }
         if (transform.position.x < player.transform.position.x)
         {
             _directionMultiplier = -1;
@@ -31,14 +37,18 @@ public class ProjectileBehaivour : MonoBehaviour
 
     void Update()
     {
-        transform.position += _directionMultiplier * transform.right * Time.deltaTime * _speed;
+        transform.position += transform.right * (_directionMultiplier * Time.deltaTime * _speed);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject);
+            HealthManagement enemyHealth = collision.gameObject.GetComponent<HealthManagement>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.DoDamage(_damage);
+            }
             Destroy(gameObject);
         }
     }
