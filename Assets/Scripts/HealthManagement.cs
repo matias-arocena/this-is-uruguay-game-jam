@@ -11,7 +11,19 @@ public class HealthManagement : MonoBehaviour
         _health -= damage;
         if (_health <= 0)
         {
-            Destroy(gameObject);
+            if (gameObject.CompareTag("Jonny"))
+            {
+                GameManager.Instance.Restart();
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
+    }
+
+    public int GetCurrentHealth()
+    {
+        return _health;
     }
 }
