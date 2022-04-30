@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ProjectileController : MonoBehaviour
 {
-    [SerializeField] private ProjectileBehaivour _projectile;
+    [SerializeField] private ProjectileBehaviour _projectile;
     [SerializeField] private Transform _launchOffset;
 
     // Update is called once per frame

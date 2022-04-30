@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileBehaivour : MonoBehaviour
+public class ProjectileBehaviour : MonoBehaviour
 {
     [SerializeField] private float _speed = 8.0f;
     [SerializeField] private float _timeToLiveInSeconds = 5.0f;
