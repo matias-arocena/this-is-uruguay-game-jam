@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowingBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowingBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/a5/32463cf6/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PortalBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +77,7 @@
       <workItem from="1651186679037" duration="4007000" />
       <workItem from="1651344378227" duration="989000" />
       <workItem from="1651434181388" duration="16000" />
-      <workItem from="1651434315127" duration="2570000" />
+      <workItem from="1651434315127" duration="6038000" />
     </task>
     <task id="LOCAL-00001" summary="Agrege la camara que sigue al personaje, y agrege otra esena">
       <created>1651192067605</created>
