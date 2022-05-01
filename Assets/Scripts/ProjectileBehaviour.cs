@@ -43,7 +43,7 @@ public class ProjectileBehaviour : RestartableGameObject
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("DeathWall"))
         {
             HealthManagement enemyHealth = collision.gameObject.GetComponent<HealthManagement>();
             if (enemyHealth != null)
@@ -52,6 +52,7 @@ public class ProjectileBehaviour : RestartableGameObject
             }
             Destroy(gameObject);
         }
+        
     }
 
     public override void Restart()
