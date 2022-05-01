@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -9,8 +11,14 @@ public class PortalBehaviour : MonoBehaviour
 {
     [SerializeField] private GameObject[] _deactivateEntities;
     [SerializeField] private GameObject[] _activateEntities;
-    [SerializeField] private Camera _currentCamera;
-    [SerializeField] private Camera _nextCamera;
+    [SerializeField] private Transform _follow;
+
+    private CinemachineVirtualCamera[] _cameras;
+
+    private void Start()
+    {
+        _cameras = FindObjectsOfType<CinemachineVirtualCamera>();
+    }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -26,8 +34,10 @@ public class PortalBehaviour : MonoBehaviour
                 obj.SetActive(true);
             }
 
-            _currentCamera.enabled = false;
-            _nextCamera.enabled = true;
+            foreach (var obj in _cameras)
+            {
+                obj.Follow = _follow;
+            }
         }
     }
 }
