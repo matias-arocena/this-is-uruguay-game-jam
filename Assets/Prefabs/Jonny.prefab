@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 564099373477699174}
   - component: {fileID: 564099373477699169}
   - component: {fileID: 5493325809882688770}
+  - component: {fileID: 7387784399651466179}
   m_Layer: 0
   m_Name: Jonny
   m_TagString: Untagged
@@ -178,6 +179,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectile: {fileID: 8895562315498330123, guid: 4143cc8eb0922484896e3f12a0a738e9, type: 3}
   _launchOffset: {fileID: 5222385796620977277}
+--- !u!114 &7387784399651466179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564099373477699195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9605e9197cfce05468a88965315603b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 1
 --- !u!1 &678158631000126089
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,9 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
+using DefaultNamespace;
 using UnityEngine;
 
-public class SetMeOnFireBehaviour : MonoBehaviour
+public class SetMeOnFireBehaviour : RestartableGameObject
 {
     [SerializeField] private float _secondsToRestart = 1.0f;
     [SerializeField] private ParticleSystem _fireParticles;
@@ -23,7 +24,12 @@ public class SetMeOnFireBehaviour : MonoBehaviour
     IEnumerator RestartInTime()
     {
         yield return new WaitForSeconds(_secondsToRestart);
-        _fireParticles.Stop(true);
         GameManager.Instance.Restart();
+    }
+
+    public override void Restart()
+    {
+        _fireParticles.Stop(true);
+        _fireParticles.GetComponent<Renderer>().enabled = false;
     }
 }

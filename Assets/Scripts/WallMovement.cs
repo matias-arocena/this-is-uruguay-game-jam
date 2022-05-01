@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
-public class WallMovement : MonoBehaviour
+public class WallMovement : RestartableGameObject
 {
     [SerializeField] private float _initialSpeed;
     [SerializeField] private float _initialAcceleration;
@@ -10,9 +12,11 @@ public class WallMovement : MonoBehaviour
 
     private float _speed;
     private float _acceleration;
-
+    private Vector3 _initialPosition;
+    
     void Start()
     {
+        _initialPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         Restart();
     }
     
@@ -23,9 +27,18 @@ public class WallMovement : MonoBehaviour
         transform.position += new Vector3(Mathf.Clamp(_speed * Time.deltaTime, -_maxSpeed, _maxSpeed), 0, 0);
     }
 
-    public void Restart()
+    public override void Restart()
     {
         _speed = _initialSpeed;
         _acceleration = _initialAcceleration;
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Jonny"))
+        {
+            var health = col.gameObject.GetComponent<HealthManagement>();
+            health.DoDamage(health.GetCurrentHealth() + 1);
+        }
     }
 }

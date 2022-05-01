@@ -1,7 +1,8 @@
 
+using DefaultNamespace;
 using UnityEngine;
 
-public class LighterController : MonoBehaviour
+public class LighterController : RestartableGameObject
 {
     [SerializeField] private SetShitOnFireBehaviour flame;
 
@@ -19,5 +20,13 @@ public class LighterController : MonoBehaviour
         {
             Destroy(_currentFlame.gameObject);
         }
+    }
+    
+    public override void Restart()
+    {
+        if (_currentFlame != null)
+        {
+            Destroy(_currentFlame.gameObject);
+        }        
     }
 }

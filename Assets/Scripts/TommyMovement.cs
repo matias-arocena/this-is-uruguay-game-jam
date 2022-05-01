@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
-public class TommyMovement : MonoBehaviour
+public class TommyMovement : RestartableGameObject
 {
     public float fuerzaSalto = 150f;
     public float Speed;
@@ -13,16 +15,17 @@ public class TommyMovement : MonoBehaviour
     public float dirX;
     public SpriteRenderer spr;
     private float Horizontal;
-  
+
+    private Vector3 _startPosition;
     void Start()
     {  saltos=0;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        _startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
- 
- 
-    void Update()
+ void Update()
     {
         Horizontal = Input.GetAxis("Horizontal");
     
@@ -70,5 +73,16 @@ public class TommyMovement : MonoBehaviour
         }
       
         
+    }
+
+    public override void Restart()
+    {
+        transform.position = _startPosition;
+        rb.velocity = Vector2.zero;
+    }
+
+    public override void UpdateState()
+    {
+        _startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 }

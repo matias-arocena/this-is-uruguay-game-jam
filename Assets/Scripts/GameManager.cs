@@ -1,17 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using DefaultNamespace;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _jonny;
-    [SerializeField] private GameObject _tommy;
-    [SerializeField] private GameObject _deathWall;
-
-    private Vector3 _jonnyStartPosition;
-    private Vector3 _tommyStartPosition;
-    private Vector3 _deathWallStartPosition;
-
+    private RestartableGameObject[] _objectsAhead;
+    
     private static GameManager _instance;
     public static GameManager Instance
     {
@@ -23,26 +20,23 @@ public class GameManager : MonoBehaviour
             }
             return _instance;
         }
-    }
-    
-    // Start is called before the first frame update
-    void Start()
+   }
+
+    public void Start()
     {
-        _jonnyStartPosition = _jonny.transform.position;
-        _tommyStartPosition = _tommy.transform.position;
-        _deathWallStartPosition = _deathWall.transform.position;
+        _objectsAhead = FindObjectsOfType<RestartableGameObject>();
     }
 
     public void Restart()
     {
-        _jonny.transform.position = _jonnyStartPosition;
-        _tommy.transform.position = _tommyStartPosition;
-        _deathWall.transform.position = _deathWallStartPosition;
-
-        _jonny.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-        _tommy.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-        
-        _deathWall.GetComponent<WallMovement>().Restart();
+        foreach (var obj in _objectsAhead)
+        {
+            obj.Restart();
+        }
     }
 
+    public void Unregister(RestartableGameObject obj)
+    {
+        _objectsAhead = _objectsAhead.Where(v => v != obj).ToArray();
+    }
 }

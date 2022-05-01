@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
-public class ProjectileBehaviour : MonoBehaviour
+public class ProjectileBehaviour : RestartableGameObject
 {
     [SerializeField] private float _speed = 8.0f;
     [SerializeField] private float _timeToLiveInSeconds = 5.0f;
@@ -51,5 +52,10 @@ public class ProjectileBehaviour : MonoBehaviour
             }
             Destroy(gameObject);
         }
+    }
+
+    public override void Restart()
+    {
+        Destroy(gameObject);
     }
 }
