@@ -60,7 +60,12 @@ public class FollowingBehaviour : RestartableGameObject
             case FollowState.Following:
                 transform.position +=
                     (_jonny.transform.position - transform.position).normalized * 
-                    (_speed * Time.deltaTime);                    
+                    (_speed * Time.deltaTime);
+                if ((_jonny.transform.position.x - transform.position.x > 0.0f && transform.localScale.x >= 0.0f) ||
+                    (_jonny.transform.position.x - transform.position.x <= 0.0f && transform.localScale.x < 0.0f))
+                {
+                    transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                } 
                 break;
             case FollowState.Patrolling:
                 transform.position += 
@@ -71,6 +76,12 @@ public class FollowingBehaviour : RestartableGameObject
                     _patrollingObjective = new Vector3(_patrollingObjective.x + _patrollingRange,
                         _patrollingObjective.y, _patrollingObjective.z);
                     _patrollingRange *= -1;
+                }
+                
+                if ((_patrollingObjective.x - transform.position.x > 0.0f && transform.localScale.x >= 0.0f) ||
+                    (_patrollingObjective.x - transform.position.x <= 0.0f && transform.localScale.x < 0.0f))
+                {
+                    transform.localScale = new Vector3(-1.0f * transform.localScale.x, transform.localScale.y, transform.localScale.z);
                 }
                 break;
             default:
