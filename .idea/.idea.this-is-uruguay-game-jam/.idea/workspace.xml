@@ -6,17 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TommyIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TommyIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gesto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gesto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tommyanimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tommyanimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Palette/Fondo evil/Fondo evil.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Palette/Fondo evil/Fondo evil.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Player/TommyDead.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/Player/TommyDead.anim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +30,7 @@
   "keyToString": {
     "Discover.Launch.Via.Unity": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.selected.package.tslint": "(autodetect)",
     "rider.run.widget.enabled.cache": "false"
   }
 }]]></component>
@@ -83,8 +76,6 @@
       <workItem from="1651181207356" duration="20000" />
       <workItem from="1651186679037" duration="4007000" />
       <workItem from="1651344378227" duration="989000" />
-      <workItem from="1651434181388" duration="16000" />
-      <workItem from="1651434315127" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="Agrege la camara que sigue al personaje, y agrege otra esena">
       <created>1651192067605</created>
