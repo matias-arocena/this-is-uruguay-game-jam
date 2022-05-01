@@ -16,7 +16,7 @@ public class LighterController : RestartableGameObject
             _currentFlame = Instantiate(flame, gameObject.transform);
         }
 
-        if (Input.GetButtonUp("Fire"))
+        if (Input.GetButtonUp("Fire") && _currentFlame.gameObject != null)
         {
             Destroy(_currentFlame.gameObject);
         }

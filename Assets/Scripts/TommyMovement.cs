@@ -36,7 +36,7 @@ public class TommyMovement : RestartableGameObject
 
         anim.SetBool("Running", Horizontal != 0.0f);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetButtonDown("Jump"))
         {
             Jump();
         }

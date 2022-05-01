@@ -29,6 +29,7 @@ public class WallMovement : RestartableGameObject
 
     public override void Restart()
     {
+        transform.position = _initialPosition;
         _speed = _initialSpeed;
         _acceleration = _initialAcceleration;
     }

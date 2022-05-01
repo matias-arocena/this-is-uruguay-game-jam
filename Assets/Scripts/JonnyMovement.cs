@@ -38,7 +38,7 @@ public class JonnyMovement : RestartableGameObject
 
         anim.SetBool("run", Horizontal != 0.0f);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetButtonDown("Jump"))
         {
             Jump();
         }
