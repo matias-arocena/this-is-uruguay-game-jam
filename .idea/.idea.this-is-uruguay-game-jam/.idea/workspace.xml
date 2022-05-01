@@ -5,18 +5,511 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="sonidos">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Gestos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Gestos/Esclamacion.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Gestos/Gestos.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Gestos/Gestos.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Otros/New Physics Material 2D.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/PreubaCasa2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/PreubaCasa2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_100.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_100.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_101.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_101.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_102.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_102.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_103.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_103.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_104.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_104.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_105.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_105.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_106.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_106.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_107.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_107.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_108.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_108.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_109.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_109.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_110.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_110.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_111.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_111.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_112.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_112.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_113.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_113.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_114.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_114.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_115.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_115.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_116.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_116.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_117.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_117.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_118.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_118.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_119.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_119.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_120.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_120.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_121.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_121.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_122.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_122.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_123.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_123.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_124.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_124.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_125.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_125.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_126.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_126.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_127.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_127.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_128.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_128.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_129.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_129.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_130.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_130.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_131.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_131.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_132.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_132.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_133.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_133.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_134.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_134.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_135.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_135.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_136.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_136.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_137.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_137.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_138.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_138.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_139.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_139.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_140.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_140.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_141.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_141.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_142.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_142.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_143.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_143.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_144.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_144.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_145.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_145.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_146.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_146.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_147.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_147.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_148.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_148.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_149.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_149.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_150.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_150.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_151.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_151.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_152.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_152.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_153.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_153.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_154.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_154.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_155.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_155.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_156.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_156.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_157.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_157.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_158.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_158.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_159.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_159.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_160.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_160.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_161.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_161.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_162.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_162.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_163.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_163.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_164.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_164.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_165.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_165.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_166.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_166.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_167.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_167.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_168.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_168.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_169.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_169.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_170.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_170.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_171.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_171.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_172.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_172.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_173.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_173.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_174.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_174.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_175.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_175.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_176.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_176.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_177.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_177.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_178.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_178.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_179.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_179.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_180.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_180.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_181.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_181.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_182.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_182.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_183.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_183.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_184.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_184.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_185.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_185.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_186.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_186.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_187.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_187.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_188.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_188.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_189.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_189.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_190.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_190.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_191.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_191.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_192.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_192.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_193.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_193.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_194.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_194.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_195.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_195.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_196.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_196.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_197.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_197.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_37.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_37.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_38.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_38.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_39.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_39.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_40.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_40.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_41.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_41.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_42.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_42.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_43.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_43.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_44.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_44.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_45.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_45.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_46.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_46.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_47.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_47.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_48.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_48.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_49.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_49.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_50.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_50.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_51.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_51.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_52.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_52.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_53.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_53.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_54.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_54.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_55.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_55.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_56.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_56.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_57.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_57.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_58.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_58.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_59.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_59.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_60.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_60.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_61.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_61.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_62.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_62.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_63.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_63.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_64.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_64.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_65.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_65.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_66.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_66.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_67.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_67.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_68.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_68.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_69.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_69.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_70.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_70.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_71.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_71.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_72.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_72.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_73.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_73.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_74.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_74.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_75.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_75.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_76.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_76.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_77.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_77.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_78.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_78.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_79.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_79.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_80.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_80.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_81.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_81.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_82.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_82.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_83.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_83.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_84.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_84.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_85.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_85.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_86.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_86.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_87.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_87.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_88.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_88.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_89.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_89.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_90.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_90.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_91.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_91.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_92.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_92.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_93.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_93.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_94.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_94.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_95.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_95.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_96.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_96.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_97.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_97.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_98.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_98.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_99.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Casa2 prueba/tileset_16x16_interior_99.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Cuadro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Cuadro/16x16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Cuadro/16x16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/Extras Evil.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/Extras Evil.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/background2_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/columns_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/columns_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/columns_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/columns_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/picos evil_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/picos evil_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/picos evil_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Extras evil/picos evil_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Fondo evil.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Fondo evil/Fondo evil.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/Fondo evil/Fondo evil.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/columna evil.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/columna evil/Columna.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/columna evil/Columna.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/picos evil.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/picos evil/Picos evil.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palette/picos evil/Picos evil.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Camaras.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Camaras.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gesto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gesto.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloonx2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloonx2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloonx2_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloonx2_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloonx2_16.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/ImanorBalloonx2_16.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/esclamacion.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/esclamacion.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/esclamacion2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/esclamacion2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/vacio.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Expreciones/vacio.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Player/TommyDead.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Player/TommyDead.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/background2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/background2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/background2.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/background2.xcf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/16x16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/Cuadreo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/Cuadreo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/Cuadros2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/Cuadros2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/background.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/background.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/city_picture.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/city_picture.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/city_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/city_picture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/frames.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/frames.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/frames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/frames.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/large_island.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/large_island.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/large_island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/large_island.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/mounted_swordfish.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/mounted_swordfish.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/mounted_swordfish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/objetos/mounted_swordfish.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/picos evil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/picos evil.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Checkpoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Checkpoint.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JonnyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JonnyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LighterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LighterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Otros/New Physic Material.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Otros/New Physics Material 2D.physicsMaterial2D" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Otros/New Physic Material.physicMaterial.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Gestos/Esclamacion.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Palette/Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Palette/Palette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TommyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TommyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/casa/tileset_16x16_interior.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/casa/tileset_16x16_interior.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/columns.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/columns.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +517,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/24/b19960d7/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/95/38ac4270/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/a5/32463cf6/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/ae/b79fc273/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/be/d40c5e74/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be0d000d9fed44ca9f480775f4596cec3a00/42/8e573bca/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LighterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/sonido/fondo/fondo evil.mp3.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/sonido/fondo/fondo evil.mp3.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/sonido/fondo/fondo evil.mp3.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,10 +562,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25508">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="25508" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -142,37 +632,5 @@
     <MESSAGE value="Agrege la camara que sigue al personaje, y agrege otra esena" />
     <MESSAGE value="sonidos" />
     <option name="LAST_COMMIT_MESSAGE" value="sonidos" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/TommyMovement.cs</url>
-          <line>72</line>
-          <properties documentPath="E:\projects\UnityProjects\this-is-uruguay-game-jam\Assets\Scripts\TommyMovement.cs" initialLine="72" containingFunctionPresentation="method 'Restart'">
-            <startOffsets>
-              <option value="1887" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1923" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
-          <line>33</line>
-          <properties documentPath="E:\projects\UnityProjects\this-is-uruguay-game-jam\Assets\Scripts\GameManager.cs" initialLine="26" containingFunctionPresentation="method 'Restart'">
-            <startOffsets>
-              <option value="717" />
-            </startOffsets>
-            <endOffsets>
-              <option value="731" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

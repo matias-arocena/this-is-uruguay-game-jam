@@ -58,14 +58,21 @@ public class TommyMovement : RestartableGameObject
 
         }
     }
+
+    private void dejarDeSaltar()
+    {
+        saltos=0;
+        anim.SetBool("Jumping", false);
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Suelo" )
+        if (collision.gameObject.tag == "Suelo"  ||  collision.gameObject.tag == "mesa" )
         {
-            saltos=0;
-            anim.SetBool("Jumping", false);
+           dejarDeSaltar();
         
         }
+      
+        
     }
 
     public override void Restart()
