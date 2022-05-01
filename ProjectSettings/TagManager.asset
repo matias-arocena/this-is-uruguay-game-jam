@@ -8,6 +8,7 @@ TagManager:
   - DeathWall
   - Jonny
   - Enemy
+  - mesa
   layers:
   - Default
   - TransparentFX
