@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class HealthManagement : MonoBehaviour
@@ -18,6 +20,11 @@ public class HealthManagement : MonoBehaviour
             else
             {
                 Destroy(gameObject);
+                var restartableGameObject = gameObject.GetComponents<RestartableGameObject>();
+                foreach (var obj in restartableGameObject)
+                {
+                    GameManager.Instance.Unregister(obj);
+                }
             }
         }
     }

@@ -5,45 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="sonidos">
-      <change afterPath="$PROJECT_DIR$/Assets/Material.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/MAT_Fire_ADD.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/MAT_Fire_ADD.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/MAT_Fire_ALPHA.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/MAT_Fire_ALPHA.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/MAT_GLOW.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material/MAT_GLOW.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FireParticle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FireParticle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lighter.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lighter.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthManagement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthManagement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LighterController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LighterController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SetMeOnFireBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SetMeOnFireBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SetShitOnFireBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SetShitOnFireBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/TXT_Fire_01.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/TXT_Fire_01.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/TXT_Sparks_01.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/TXT_Sparks_01.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jonny.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jonny.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RestartableGameObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RestartableGameObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sm1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/sm1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectileBehaivour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectileBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectileBehaivour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectileBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tommy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tommy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sonido.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sonido.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sonido/fondo/fondo evil.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sonido/fondo/fondo evil.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sonido/fondo/fondo good 2.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sonido/fondo/fondo good 2.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sonido/fondo/fondo good.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sonido/fondo/fondo good.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sonido/music.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sonido/music.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowingBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowingBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthManagement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthManagement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JonnyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JonnyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LighterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LighterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerDamageManagement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerDamageManagement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectileBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectileBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SetMeOnFireBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SetMeOnFireBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TommyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TommyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +28,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/sonido/fondo/fondo evil.mp3.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/sonido/fondo/fondo evil.mp3.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/sonido/fondo/fondo evil.mp3.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/24/b19960d7/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/95/38ac4270/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/a5/32463cf6/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/ae/b79fc273/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/be/d40c5e74/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/be0d000d9fed44ca9f480775f4596cec3a00/42/8e573bca/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LighterController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,10 +76,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25508">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25508" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -166,5 +146,37 @@
     <MESSAGE value="Agrege la camara que sigue al personaje, y agrege otra esena" />
     <MESSAGE value="sonidos" />
     <option name="LAST_COMMIT_MESSAGE" value="sonidos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TommyMovement.cs</url>
+          <line>72</line>
+          <properties documentPath="E:\projects\UnityProjects\this-is-uruguay-game-jam\Assets\Scripts\TommyMovement.cs" initialLine="72" containingFunctionPresentation="method 'Restart'">
+            <startOffsets>
+              <option value="1893" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1929" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
+          <line>33</line>
+          <properties documentPath="E:\projects\UnityProjects\this-is-uruguay-game-jam\Assets\Scripts\GameManager.cs" initialLine="26" containingFunctionPresentation="method 'Restart'">
+            <startOffsets>
+              <option value="717" />
+            </startOffsets>
+            <endOffsets>
+              <option value="731" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

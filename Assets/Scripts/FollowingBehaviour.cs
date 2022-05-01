@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using DefaultNamespace;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
@@ -13,7 +14,7 @@ enum FollowState
     Patrolling
 }
 
-public class FollowingBehaviour : MonoBehaviour
+public class FollowingBehaviour : RestartableGameObject
 {
     [SerializeField] private float _patrollingRange = 2.0f;
     [SerializeField] private float _speed = 1.0f;
@@ -22,6 +23,9 @@ public class FollowingBehaviour : MonoBehaviour
     private GameObject _jonny;
     private FollowState _state = FollowState.Patrolling;
     private Vector3 _patrollingObjective;
+
+    private Vector3 _startPosition;
+    private float _startPatrollingRange;
     
     // Start is called before the first frame update
     void Start()
@@ -35,6 +39,9 @@ public class FollowingBehaviour : MonoBehaviour
         _patrollingObjective = new Vector3(transform.position.x + _patrollingRange, transform.position.y,
             transform.position.z);
         _patrollingRange *= -1;
+
+        _startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        _startPatrollingRange = _patrollingRange;
     }
 
     // Update is called once per frame
@@ -78,5 +85,13 @@ public class FollowingBehaviour : MonoBehaviour
             var health = col.gameObject.GetComponent<HealthManagement>();
             health.DoDamage(health.GetCurrentHealth() + 1);
         }
+    }
+
+    public override void Restart()
+    {
+        transform.position = _startPosition;
+        _patrollingObjective = new Vector3(transform.position.x + _startPatrollingRange, transform.position.y,
+            transform.position.z);
+        _patrollingRange = -_startPatrollingRange;
     }
 }

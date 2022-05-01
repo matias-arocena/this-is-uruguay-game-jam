@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
-public class JonnyMovement : MonoBehaviour
+public class JonnyMovement : RestartableGameObject
 {
     public float fuerzaSalto = 150f;
     public float Speed;
@@ -13,11 +15,14 @@ public class JonnyMovement : MonoBehaviour
     public float dirX;
     public SpriteRenderer spr;
     private float Horizontal;
-  
+
+    private Vector3 _startPosition;
+    
     void Start()
     {  saltos=0;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        _startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
  
@@ -65,5 +70,16 @@ public class JonnyMovement : MonoBehaviour
         }
 
 
+    }
+    
+    public override void Restart()
+    {
+        transform.position = _startPosition;
+        rb.velocity = Vector2.zero;
+    }
+
+    public override void UpdateState()
+    {
+        _startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 }
