@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Cambios en la esena preincipal">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab.meta" afterDir="false" />
+    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Cambios en la esena">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651453002364</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cambios en la esena">
+      <created>1651453727447</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651453727447</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +165,7 @@
     <MESSAGE value="Cambios en el mapa 3" />
     <MESSAGE value="cambios en esena" />
     <MESSAGE value="Cambios en la esena preincipal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en la esena preincipal" />
+    <MESSAGE value="Cambios en la esena" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en la esena" />
   </component>
 </project>
