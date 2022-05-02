@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 387920388438270699}
   - component: {fileID: 8895562315498330123}
   m_Layer: 0
-  m_Name: Projectile 1
+  m_Name: ProjectileMago
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -7.9464e-10, y: -0.006665924}
@@ -88,7 +88,9 @@ MonoBehaviour:
   _timeToLiveInSeconds: 3
   _damage: 1
   launcherTag: Mago
-  EnnemyTag: Tommy
+  enemyTags:
+  - Jonny
+  - DeathWall
 --- !u!1 &5335267875644801033
 GameObject:
   m_ObjectHideFlags: 0
