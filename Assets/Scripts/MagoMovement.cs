@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MagoMovement : RestartableGameObject
 {
-    public int frameinterval;
+    public int secondsBetweenShoot = 2;
     
     public Transform Launch;
     public GameObject Projectile;
@@ -32,7 +32,7 @@ public class MagoMovement : RestartableGameObject
    }
    IEnumerator Shoot()
    {
-       yield return new WaitForSeconds(2);
+       yield return new WaitForSeconds(secondsBetweenShoot);
         
        Instantiate(Projectile,Launch.position, Launch.rotation);
        StartCoroutine(Shoot());
