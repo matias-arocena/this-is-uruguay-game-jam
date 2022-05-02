@@ -4,12 +4,15 @@ using DefaultNamespace;
 using UnityEngine;
 
 public class ProjectileBehaviour : RestartableGameObject
+
 {
     [SerializeField] private float _speed = 8.0f;
     [SerializeField] private float _timeToLiveInSeconds = 5.0f;
     [SerializeField] private int _damage = 1;
     
     private float _directionMultiplier = 1;
+    [SerializeField] private string launcherTag;
+    [SerializeField] private string[] enemyTags;
 
     IEnumerator DestroyInTime(float secondsToWait)
     {
@@ -20,10 +23,10 @@ public class ProjectileBehaviour : RestartableGameObject
     
     void Start()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Jonny");
+        GameObject player = GameObject.FindGameObjectWithTag(launcherTag);
         if (player == null)
         {
-            Debug.LogError("Missing Jonny Tag");
+            Debug.LogError("Missing launcherTag Tag");
             return;
         }
         if (transform.position.x < player.transform.position.x)
@@ -43,16 +46,18 @@ public class ProjectileBehaviour : RestartableGameObject
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("DeathWall"))
+        foreach (var enemyTag in enemyTags)
         {
-            HealthManagement enemyHealth = collision.gameObject.GetComponent<HealthManagement>();
-            if (enemyHealth != null)
+            if (collision.gameObject.CompareTag(enemyTag))
             {
-                enemyHealth.DoDamage(_damage);
+                HealthManagement enemyHealth = collision.gameObject.GetComponent<HealthManagement>();
+                if (enemyHealth != null)
+                {
+                    enemyHealth.DoDamage(_damage);
+                }
+                Destroy(gameObject);                
             }
-            Destroy(gameObject);
         }
-        
     }
 
     public override void Restart()

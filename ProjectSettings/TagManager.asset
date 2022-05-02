@@ -9,6 +9,7 @@ TagManager:
   - Jonny
   - Enemy
   - mesa
+  - Mago
   layers:
   - Default
   - TransparentFX
