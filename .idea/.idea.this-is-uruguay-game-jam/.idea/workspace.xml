@@ -5,61 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Modificaciones de mapa">
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/Nueva carpeta.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/cono evil.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/cono evil/Cono evil.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/cono evil/Cono evil.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/cono evil/conoEvil.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/cono evil/conoEvil.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/pe.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/pe/pe.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/pe/pe.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/pe/puerta evil_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/pe/puerta evil_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/puerta evil.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/puerta evil/Puerta evil.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/puerta evil/Puerta evil.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/puerta evil/puerta evil 1_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Palette/puerta evil/puerta evil 1_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid Jonny.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid Jonny.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid Tommy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid Tommy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PortalBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PortalBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Attack.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Death 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Death 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Idle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Move.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Move.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Take Hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/Take Hit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/conoEvil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/conoEvil.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/puerta evil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/puerta evil.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Jonny.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Jonny.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowingBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowingBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RESET_MODE" value="HARD" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -141,13 +104,20 @@
       <option name="project" value="LOCAL" />
       <updated>1651344420209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modificaciones de mapa">
+      <created>1651448636450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651448636450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +135,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Agrege la camara que sigue al personaje, y agrege otra esena" />
     <MESSAGE value="sonidos" />
-    <option name="LAST_COMMIT_MESSAGE" value="sonidos" />
+    <MESSAGE value="Modificaciones de mapa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones de mapa" />
   </component>
 </project>
