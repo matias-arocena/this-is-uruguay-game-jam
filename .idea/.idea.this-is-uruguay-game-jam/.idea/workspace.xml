@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Modificaciones de mapa">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+    <list default="true" id="50b7bd9d-c129-42ae-a6e9-be4351971d04" name="Changes" comment="Cambios en la esena preincipal">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.this-is-uruguay-game-jam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tommy.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/sm1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Table.prefab.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,8 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/Prefabs/ProjectileMago.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Jam/Hilo rojo/this-is-uruguay-game-jam/Assets/Prefabs/ProjectileMago.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gesto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -111,7 +111,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651448636450</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cambios en el mapa 3">
+      <created>1651452341719</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651452341719</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cambios en esena">
+      <created>1651452422885</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651452422885</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cambios en la esena preincipal">
+      <created>1651453002364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651453002364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +157,9 @@
     <MESSAGE value="Agrege la camara que sigue al personaje, y agrege otra esena" />
     <MESSAGE value="sonidos" />
     <MESSAGE value="Modificaciones de mapa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones de mapa" />
+    <MESSAGE value="Cambios en el mapa 3" />
+    <MESSAGE value="cambios en esena" />
+    <MESSAGE value="Cambios en la esena preincipal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en la esena preincipal" />
   </component>
 </project>
