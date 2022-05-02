@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
-public class MagoMovement : MonoBehaviour
+public class MagoMovement : RestartableGameObject
 {
     public int frameinterval;
     
